@@ -1,0 +1,94 @@
+.nav-color {
+    background-color: red;
+    position: fixed;
+    width: 100%;
+}
+
+.first-parallax {
+    background-color: rgba(120, 0, 80, 0.1);
+    font-size: 50%;
+    text-align: center;
+    height: 50%;
+    padding: 30px;
+}
+
+.second-parallax {
+    background-color: rgba(120, 0, 80, 0.1);
+    font-size: 50%;
+    text-align: center;
+    height: static;
+    padding: 30px;
+}
+
+.container {
+    text-align: center;
+}
+/* .parallax {
+    height: 150%;
+} */
+
+
+.selfport {
+    padding: 20px;
+    width: 50%;
+}
+
+
+.paragraph-details {
+    font-size: 30px;
+}
+
+.third-parallax {
+    background-color: white;
+}
+
+
+.footer-style {
+    padding: 20px;
+}
+
+#about-link {
+    
+}
+
+/* below is animation info i took */
+
+.body {
+	height: 1000%;
+	/* max-height: 600px; */
+	width: 80%;
+	background-color: hsla(60%,40%,30%,.4);
+	background-image:		
+		url('pictures/one.jpg'), 
+		url('pictures/two.jpg'),
+		url('pictures/three.jpg'),
+		url('pictures/four.jpg'),
+		url('pictures/rubber.jpg');
+	background-repeat: repeat-x;
+	background-position: 
+		0 20%,
+		0 95%,
+		0 0,
+		0 100%,
+		0 0;
+	background-size: 
+    
+    100%
+		50%,
+		45% 45%,
+		1000px,
+		400px 260px;
+    animation: 50s para infinite linear;
+   
+	}
+
+@keyframes para {
+	100% {
+		background-position: 
+			-5000px 20%,
+			-800px 95%,
+			500px 0,
+			1000px 100%,
+			400px 0;
+		}
+	}
