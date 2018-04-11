@@ -1,94 +1,200 @@
-.nav-color {
-    background-color: red;
-    position: fixed;
-    width: 100%;
+body {
+	font-family: 'Open Sans', sans-serif;
+	background-color: rgb(40, 7, 7);
+	color: rgb(240, 202, 202); 
+
 }
 
-.first-parallax {
-    background-color: rgba(120, 0, 80, 0.1);
-    font-size: 50%;
-    text-align: center;
-    height: 50%;
-    padding: 30px;
+.nav-color {
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	background-image: url('pictures/mini-chain-8.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+	
 }
+
+.nav-link,
+.brand-name {
+	color: black;
+	font-family: 'Berkshire Swash', cursive;
+}
+
+
+/* all paralax headers affected */
+
+.header {
+	font-size: 40px;
+	padding-bottom: 20px;
+	color: rgb(40, 7, 7);
+	font-family: 'Berkshire Swash', cursive;
+	text-align: center;
+	
+
+	
+}
+
+.mainboxtitle {
+	padding-bottom: 20px;
+	color: white;
+	
+}
+
+.parallax {
+		padding-top: 200px;
+		padding-bottom: 200px;
+		overflow: hidden;
+		position: relative;
+		width: 100%;
+		background-image: url('pictures/mini-chain-8.jpg');
+		background-attachment: fixed;
+		background-size: cover;
+		-moz-background-size: cover;
+		-webkit-background-size: cover;
+		background-repeat: no-repeat;
+		background-position: top center;
+		text-align: center;
+}
+
+/* meet the designer */
 
 .second-parallax {
-    background-color: rgba(120, 0, 80, 0.1);
-    font-size: 50%;
-    text-align: center;
-    height: static;
-    padding: 30px;
-}
+	padding-top: 200px;
+		padding-bottom: 200px;
+		overflow: hidden;
+		position: relative;
+		width: 100%;
+		background-image: url('pictures/heartbreaker-chain copy.png.jpeg');
+		background-attachment: fixed;
+		background-size: cover;
+		-moz-background-size: cover;
+		-webkit-background-size: cover;
+		background-repeat: no-repeat;
+		background-position: top center;
 
-.container {
-    text-align: center;
-}
-/* .parallax {
-    height: 150%;
-} */
-
-
-.selfport {
-    padding: 20px;
-    width: 50%;
-}
-
-
-.paragraph-details {
-    font-size: 30px;
 }
 
 .third-parallax {
-    background-color: white;
+	padding-top: 200px;
+	padding-bottom: 200px;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	background-image: url('one.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
+/* the first grouping of text infront of image */
+.container {
+	text-align: center;
 }
 
 
-.footer-style {
-    padding: 20px;
+.selfport {
+	padding-top: 20px;
+	padding-right:20px;
+	width: 50%;
+float: left;
+	/* text-align: center; */
+	
 }
 
-#about-link {
-    
+.paragraph-details {
+	font-size: 25px;
+}
+
+.bio-row {
+	display: inline;
+
+}
+/* testing out space in between cards */
+.row {
+	margin-bottom: 20px;
+}
+
+.about-link {
+	text-align: center;
+}
+
+.styling-cards {
+	margin-bottom: 40px;
 }
 
 /* below is animation info i took */
 
-.body {
+/* .body {
 	height: 1000%;
-	/* max-height: 600px; */
 	width: 80%;
-	background-color: hsla(60%,40%,30%,.4);
-	background-image:		
-		url('pictures/one.jpg'), 
-		url('pictures/two.jpg'),
-		url('pictures/three.jpg'),
-		url('pictures/four.jpg'),
-		url('pictures/rubber.jpg');
+	background-color: hsla(60%, 40%, 30%, .4);
 	background-repeat: repeat-x;
-	background-position: 
-		0 20%,
-		0 95%,
-		0 0,
-		0 100%,
-		0 0;
-	background-size: 
-    
-    100%
-		50%,
-		45% 45%,
-		1000px,
-		400px 260px;
-    animation: 50s para infinite linear;
-   
-	}
+	background-position: 0 20%, 0 95%, 0 0, 0 100%, 0 0;
+	background-size: 100% 50%, 45% 45%, 1000px, 400px 260px;
+	/* animation: 50s para infinite linear; */
+
 
 @keyframes para {
 	100% {
-		background-position: 
-			-5000px 20%,
-			-800px 95%,
-			500px 0,
-			1000px 100%,
-			400px 0;
-		}
+		background-position: -5000px 20%, -800px 95%, 500px 0, 1000px 100%, 400px 0;
 	}
+}
+.home-text {
+	font-size: 100px;
+	margin-bottom: 50px;
+}
+.lead-body {
+	font-size: 50px;
+}
+
+.home-text,
+.lead-body {
+	font-family: 'Berkshire Swash', cursive;
+	color: rgb(40, 7, 7);
+	text-shadow:
+	-1px -1px 0 rgb(40, 7, 7),
+	1px -1px 0 rgb(255, 255, 255),
+	-1px 1px 0 rgb(40, 7, 7),
+	1px 1px 0 rgb(249, 249, 249);
+}
+
+/* all below is the footer */
+.spacer {
+	padding-right: 20px;
+}
+.copyright {
+	padding-top: 20px;
+}
+
+.footer-style {
+	background-color: rgb(40, 7, 7);
+	padding: 15px;
+	display: inline;
+
+}
+
+footer {
+	background-color: rgb(40, 7, 7);
+	padding: 15px;
+	color: white; 
+
+
+}
+.connectFooter {
+	padding: 10px;
+}
+
+.linkimages {
+	display: inline;
+	text-align: center;
+
+ 
+}
