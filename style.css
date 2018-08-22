@@ -1,49 +1,13 @@
+/* font-family: 'Quicksand', sans-serif;
+font-family: 'Open Sans', sans-serif; */
+
 body {
-	font-family: 'Open Sans', sans-serif;
-	background-color: rgb(40, 7, 7);
-	color: rgb(240, 202, 202); 
+font-family: 'Open Sans Condensed', sans-serif;
+	color: rgb(22, 20, 20); 
 
 }
 
-.nav-color {
-	overflow: hidden;
-	position: relative;
-	width: 100%;
-	background-image: url('pictures/mini-chain-8.jpg');
-	background-attachment: fixed;
-	background-size: cover;
-	-moz-background-size: cover;
-	-webkit-background-size: cover;
-	background-repeat: no-repeat;
-	background-position: top center;
-	
-}
 
-.nav-link,
-.brand-name {
-	color: black;
-	font-family: 'Berkshire Swash', cursive;
-}
-
-
-/* all paralax headers affected */
-
-.header {
-	font-size: 40px;
-	padding-bottom: 20px;
-	color: rgb(40, 7, 7);
-	font-family: 'Berkshire Swash', cursive;
-	text-align: center;
-	
-
-	
-}
-
-.mainboxtitle {
-	padding-bottom: 20px;
-	color: white;
-	
-}
 
 .parallax {
 		padding-top: 200px;
@@ -51,7 +15,7 @@ body {
 		overflow: hidden;
 		position: relative;
 		width: 100%;
-		background-image: url('pictures/mini-chain-8.jpg');
+		background-image: url('pictures/logo.png');
 		background-attachment: fixed;
 		background-size: cover;
 		-moz-background-size: cover;
@@ -59,17 +23,19 @@ body {
 		background-repeat: no-repeat;
 		background-position: top center;
 		text-align: center;
+		opacity: 0.7;
+
 }
 
 /* meet the designer */
 
 .second-parallax {
-	padding-top: 200px;
+		padding-top: 20px;
 		padding-bottom: 200px;
 		overflow: hidden;
 		position: relative;
 		width: 100%;
-		background-image: url('pictures/heartbreaker-chain copy.png.jpeg');
+		background-color: white;
 		background-attachment: fixed;
 		background-size: cover;
 		-moz-background-size: cover;
@@ -79,34 +45,28 @@ body {
 
 }
 
-.third-parallax {
-	padding-top: 200px;
-	padding-bottom: 200px;
-	overflow: hidden;
-	position: relative;
-	width: 100%;
-	background-image: url('one.jpg');
-	background-attachment: fixed;
-	background-size: cover;
-	-moz-background-size: cover;
-	-webkit-background-size: cover;
-	background-repeat: no-repeat;
-	background-position: top center;
-}
 
-/* the first grouping of text infront of image */
 .container {
 	text-align: center;
+	
 }
+
+.container1, 
+.container2	{
+	border: 1px solid rgba(12, 0, 55, 0.434);
+	padding: 30px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+
+}
+
 
 
 .selfport {
 	padding-top: 20px;
 	padding-right:20px;
 	width: 50%;
-float: left;
-	/* text-align: center; */
-	
+	float: left;	
 }
 
 .paragraph-details {
@@ -122,48 +82,17 @@ float: left;
 	margin-bottom: 20px;
 }
 
-.about-link {
-	text-align: center;
-}
 
-.styling-cards {
-	margin-bottom: 40px;
-}
-
-/* below is animation info i took */
-
-/* .body {
-	height: 1000%;
-	width: 80%;
-	background-color: hsla(60%, 40%, 30%, .4);
-	background-repeat: repeat-x;
-	background-position: 0 20%, 0 95%, 0 0, 0 100%, 0 0;
-	background-size: 100% 50%, 45% 45%, 1000px, 400px 260px;
-	/* animation: 50s para infinite linear; */
-
-
-@keyframes para {
-	100% {
-		background-position: -5000px 20%, -800px 95%, 500px 0, 1000px 100%, 400px 0;
-	}
-}
 .home-text {
-	font-size: 100px;
+	font-size: 75px;
 	margin-bottom: 50px;
 }
 .lead-body {
-	font-size: 50px;
+	font-size: 40px;
 }
 
-.home-text,
-.lead-body {
-	font-family: 'Berkshire Swash', cursive;
-	color: rgb(40, 7, 7);
-	text-shadow:
-	-1px -1px 0 rgb(40, 7, 7),
-	1px -1px 0 rgb(255, 255, 255),
-	-1px 1px 0 rgb(40, 7, 7),
-	1px 1px 0 rgb(249, 249, 249);
+.title-align {
+	text-align: center;;
 }
 
 /* all below is the footer */
@@ -174,19 +103,16 @@ float: left;
 	padding-top: 20px;
 }
 
-.footer-style {
-	background-color: rgb(40, 7, 7);
-	padding: 15px;
-	display: inline;
-
+footer {
+	background-color: rgba(4, 0, 24, 0.934);
+	padding: 5px;
+	color: white; 
 }
 
-footer {
-	background-color: rgb(40, 7, 7);
-	padding: 15px;
+.navbar {
+	background-color: rgba(4, 0, 24, 0.324);
+	padding: 5px;
 	color: white; 
-
-
 }
 .connectFooter {
 	padding: 10px;
@@ -195,6 +121,57 @@ footer {
 .linkimages {
 	display: inline;
 	text-align: center;
-
- 
 }
+.linkimages:hover {
+	opacity: 0.5;
+}
+
+
+
+  /* custom changes to card sizing. */
+  .wrapper {
+		  display: grid;
+	  grid-gap: 10px;
+		  grid-template-columns: [col] 100px [col] 100px [col] 100px [col] 100px  ;
+		  grid-template-rows: [row] auto [row] auto [row] ;
+		  /* background-color: rgba(236, 231, 255, 0.44); */
+		  color: #444;
+	  }
+  
+	  .box {
+		  background-color: rgb(255, 255, 255);
+		  color: rgb(65, 65, 65);
+		  border-radius: 5px;
+		  padding: 20px;
+		  font-size: 150%;
+  
+	  }
+  
+	  .a {
+		  grid-column: col / span 2;
+		  grid-row: row ;
+	  }
+	  .b {
+		  grid-column: col 3 / span 3 ;
+		  grid-row: row ;
+	  }
+
+	  .title-page {
+		  font-size: 50px;
+		  border: 1px solid rgb(222, 222, 222);
+		  
+	  }
+
+	  .center {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 50%;
+	}
+
+	.card-img-btm {
+		margin: 15px;
+		border: 1px solid rgb(136, 105, 26);
+
+	}
+
