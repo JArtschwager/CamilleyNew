@@ -1,4 +1,4 @@
 # CamilleyNew
 Camilley Girl with parallax 
 
-CSS web design to meets the clients minimalist vision. 
+CSS web design to meet the clients minimalist vision. 
