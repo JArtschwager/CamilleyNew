@@ -15,6 +15,7 @@ font-family: 'Open Sans Condensed', sans-serif;
 		overflow: hidden;
 		position: relative;
 		width: 100%;
+		height: auto;
 		background-image: url('pictures/logo.png');
 		background-attachment: fixed;
 		background-size: cover;
@@ -35,6 +36,7 @@ font-family: 'Open Sans Condensed', sans-serif;
 		overflow: hidden;
 		position: relative;
 		width: 100%;
+		height: auto;
 		background-color: white;
 		background-attachment: fixed;
 		background-size: cover;
@@ -60,7 +62,24 @@ font-family: 'Open Sans Condensed', sans-serif;
 
 }
 
+.containheight {
+	height: 100%;
+}
 
+.Image2purple {
+	width: 50%;
+	height: 70%;
+	float: center;
+	padding: 20px;
+
+
+
+}
+
+
+/* .containPurple {
+	
+} */
 
 .selfport {
 	padding-top: 20px;
@@ -113,6 +132,7 @@ footer {
 	background-color: rgba(4, 0, 24, 0.324);
 	padding: 5px;
 	color: white; 
+	font-size: 20px;
 }
 .connectFooter {
 	padding: 10px;
@@ -174,4 +194,8 @@ footer {
 		border: 1px solid rgb(136, 105, 26);
 
 	}
+
+.text-height {
+	height: 460px;
+}
 
